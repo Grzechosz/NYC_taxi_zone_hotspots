@@ -15,3 +15,6 @@ The approach to modeling includes:
 - Preprocessing data for training and evaluation.
 - Choosing the right machine learning algorithms based on the problem at hand.
 - Evaluating the model performance using appropriate metrics.
+
+
+![Merged Data Maps](merged_data_maps.gif)
