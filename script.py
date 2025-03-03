@@ -71,7 +71,7 @@ df_grouped = concaternated_data.groupby(['month','day', 'day_of_week', 'hour', '
 
 data_for_database = df_grouped.drop(['month', 'day'], axis=1)
 
-engine = create_engine('mysql+pymysql://root:BURAK@127.0.0.1:3306/nyc_taxi', echo=False)
+engine = create_engine('mysql+pymysql://[]user]:[pass]@[host]:[port]/[scheme]', echo=False)
 print("Writing to db")
 data_for_database.to_sql(name="rides", con=engine, if_exists = 'append', index=False)
 
